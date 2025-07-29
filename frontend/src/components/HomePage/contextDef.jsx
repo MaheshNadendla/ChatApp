@@ -202,7 +202,7 @@ import { io } from "socket.io-client";
 
 // import socket from "../../socket";
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://chatapp-backend-pp2d.onrender.com";
 
 
 
