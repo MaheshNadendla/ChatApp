@@ -63,7 +63,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // frontend URL
+    origin: [ 'http://localhost:3000',  'https://chatapp-frontend-5ql0.onrender.com'],
     methods: ["GET", "POST"],
     credentials: true, // ✅ allow cookies/auth headers
   },
